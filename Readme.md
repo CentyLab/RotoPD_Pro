@@ -5,7 +5,7 @@
 ## Related Links
 - [AP33772S Arduino - GitHub](https://github.com/CentyLab/AP33772S-CentyLab)
 - [INA238 Arduino - GitHub](https://github.com/RobTillaart/INA238)
-- [RotoPD Pro Project - Hackaday](https://hackaday.io/project/194295-pocketpd-usb-c-portable-bench-power-supply)
+- [RotoPD Pro Project - Hackaday](https://hackaday.io/project/204943-rotopd-pro-usb-c-240w-breakout-i2c)
 
 You can install the libraries directly on ArduinoIDE
 
