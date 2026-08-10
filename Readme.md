@@ -7,7 +7,7 @@
 - [INA238 Arduino - GitHub](https://github.com/RobTillaart/INA238)
 - [RotoPD Pro Project - Hackaday](https://hackaday.io/project/204943-rotopd-pro-usb-c-240w-breakout-i2c)
 
-You can install the libraries directly on ArduinoIDE
+You can install the libraries directly on ArduinoIDE. Library version 1.1.0 and later will support RotoPD Pro
 
 ![AP33772SLib](./Documents/Arduino_lib.jpg)
 
@@ -37,7 +37,7 @@ To ultilize AVS power profile, you will need a powerbank or charger that has AVS
 ## Specification
 + Input and output voltage range of  48V at 5A max
 + On board buck for 5V output at 1A max, 0.4A continuous
-+ Support Qwiic or STEMMA QT in 3.3V Only
++ Support Qwiic or STEMMA QT connector with 3.3V logic
 + Support PD3.1 EPR/AVS Up to 48V and SPR/PPS Up to 21V
 + Certified USB PD3.1 v1.6  TID: 10062
 + Integrated ESD and flyback diode protection
@@ -53,6 +53,6 @@ To ultilize AVS power profile, you will need a powerbank or charger that has AVS
 ![Schematic](./Documents/Schematic.png)
 
 ## Demo
-AVSFixed example with Sparkfun Pro Micro ESP32-C3. We are requesting AVS 28V.
+AVSCycle example with Sparkfun Pro Micro ESP32-C3. We are requesting AVS profile from 15V to 48V.
 
 ![ESP32C3_AVS_Step](./Documents/RotoPDPro_AVS_demo.gif)
